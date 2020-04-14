@@ -1,0 +1,95 @@
+/*starting of navigation bar */
+
+.navbar{
+    background-color: rgb(56, 112, 77);
+}
+ul{
+    margin:auto;
+    letter-spacing: 0.01em; 
+    font-size: 20px;
+    font-weight: 600;    
+}
+/*end of navigation bar */
+
+/*starting of body */
+body{
+    background-color:rgb(56, 112, 77);
+}
+/*end of body */
+
+/*starting of background image */
+.home{
+    width: 100%;
+   background-image: url(pic/myphoto4.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:center;
+   background-attachment: fixed;
+    margin-top: 30px;
+    padding-top: 30px;
+    color: white;   
+}
+/*End of background image */
+
+/*starting of name and post */
+.home h2{
+    margin-top: 40%;
+    font-family: Tahoma;
+}
+/*End of name and post */
+
+/*Starting of social icon*/
+.fab{
+    color: white !important;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 2px dashed white;
+}
+/*Ending of social icon*/
+
+
+/*Starting of card */
+ .work{
+   margin-top: 60px; 
+   background-color: #c1c3b8;
+    
+ }
+ .work1{
+     background-image: url(pic/resp.gif);
+     background-repeat: repeat;
+     background-position:center;
+     background-attachment: fixed;
+     width: 100%;
+     height: 250px;
+     color:rgb(1, 2, 1);
+ }
+ 
+.textBg{   
+    font-family: Tahoma;
+    color: white;
+    padding: 100px;
+}
+.project{
+     background-image: url(pic/project.png);
+     background-repeat: repeat;
+     background-position:center;
+     background-attachment: fixed;
+     width: 100%;
+     height: 1000px;
+     color:rgb(1, 2, 1);
+     margin-bottom: 20px;
+}
+.project1{
+    background-color: rgb(161, 161, 6);
+}
+/*End of card */
+
+/*style for navbar after scrolling */
+nav.scroll1{
+    background: #c1c3b8 ;
+    transition: all 0.5s;
+}
+nav.scroll2{
+    background: rgb(161, 161, 6) ;
+    transition: all 0.5s;
+}
